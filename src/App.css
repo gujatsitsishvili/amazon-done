@@ -1,0 +1,116 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header{
+  height: 60px;
+  background-color:#131820 ;
+}
+.select{flex-shrink: 0;
+background-color: #e6e6e6 ;
+border-start-start-radius:5px ;
+border-bottom-left-radius:5px ;
+}
+.headerinput{
+  height: 40px;
+ 
+
+}
+.searchicon{
+  width: 50px;
+  height: 40px;
+  background-color:#febd69 ;
+  border-top-right-radius:5px ;
+border-bottom-right-radius:5px ;
+}
+.item{
+  border-top: solid;
+  border-color: #dddddd;
+  border-top-width: 1px;
+
+  
+}
+.li{
+  border-left: solid;
+  border-color: #282c34;
+  border-left-width: 1px;
+  padding-left: 8px;
+  color:#007185;
+
+}
+.itemName{
+  width: 200px;
+  text-overflow: ellipsis;
+}
+
+@media(max-width:480px){
+  .headersection{
+    display: none;
+  }
+  .detailssection{
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    padding: 15px;
+  }
+  .description{
+    display: none;
+
+  }
+  .cartsection{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .carth2{
+    font-size: medium;
+  }
+  .cartimg{
+    width: 90%;
+    height: 100%;
+    margin-bottom:20px 
+  }
+  .cartsub{
+    font-size: medium;
+  }
+  .buynow{
+    width: 120px;
+    font-size: medium;
+  }
+  .headertext{ font-size: small;}
+}
